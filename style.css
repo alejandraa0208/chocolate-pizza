@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  img {
+    align-items: center;
+  }
+  
+  .recipe-info h1 {
+    font-size: 32px;
+  }
+  
+  .recipe-info p {
+    color: #666;
+  }
+  
+  .recipe-info img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  .recipe-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .author-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .author-details {
+    flex: 1;
+  }
+  
+  .share-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delicious {
+    display: flex;
+    align-items: center;
+  }
+  
+  .delicious img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+ .text-container p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cursive;
+    left: 60%;
+  }
+
+  .tagline {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .image-container {
+    position: relative;
+    width: 500px; /* Adjust the width of the container to match the image size */
+  }
+  
+  .ingredient-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .ingredient-list .column {
+    float: left;
+    width: 50%; /* Divide the ingredient list into two columns */
+  }
+  
+  .ingredient-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ingredient-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Clear the float to prevent overlapping */
+  .ingredient-list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
